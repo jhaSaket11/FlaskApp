@@ -1,13 +1,18 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
 import json
+import os
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
 
+location_count = 0
+fault_count = 0
+
 
 def get_mock_data():
-    with open('db.json') as file:
+
+    with open(os.path.join(os.getcwd(), "src", "db.json")) as file:
         mock_data = json.load(file)
 
     return mock_data
@@ -19,12 +24,18 @@ def get_device_status_info():
     parsed_data = get_mock_data()['deviceStatusInfo']
     data = next((obj for obj in parsed_data
                  if obj['vehicleID'] == request_obj["vehicleId"]), None)
-    return jsonify(data)
+    global location_count
+    location_count = location_count + 1
+    return jsonify(data["coordinates"][location_count])
 
 
 @app.route('/GetFeed/FaultData', methods=['GET'])
 def get_vehicle_fault_data():
-    return "Vehicle Fault Data"
+    global fault_count
+    fault_count = fault_count + 1
+    if fault_count is 4:
+        return "Faulted Vehicle"
+    return "Ok"
 
 
 @app.route('/GetFeed/StatusData', methods=['POST'])
