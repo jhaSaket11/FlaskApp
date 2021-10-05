@@ -1,0 +1,225 @@
+{
+  "deviceStatusInfo": [
+    {
+      "vehicleID": "bus1",
+      "latitude": 50.7301903,
+      "longitude": -1.74146557
+    },
+    {
+      "vehicleID": "bus2",
+      "latitude": 40.7301903,
+      "longitude": -2.74146557
+    }
+  ],
+  "vehicleStatusData": [
+    {
+      "data": 96,
+      "dateTime": "2021-08-19T04:32:21.527Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "a4Cq3dWtCV0yoo9j_v__LbQ"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000001",
+      "id": "aDkF9ZSKQvBrlPfyeryaUAA"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-20T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticGpsLogReasonId"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000002",
+      "id": "aQYmNE8uNi2Ga5COJA4GlAA"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-25T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux6Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000003",
+      "id": "aQYmNE8uNi2Ga5COJA4GlAQ"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-09-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux3Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000004",
+      "id": "aQYmNE8uNi2Ga5COJA4GlAg"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-07-20T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticPositionValidAtDeviceId"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000005",
+      "id": "aQYmNE8uNi2Ga5COJA4GlAw"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-06-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux1Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000006",
+      "id": "aQYmNE8uNi2Ga5COJA4GlBA"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-05-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux2Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000007",
+      "id": "aQYmNE8uNi2Ga5COJA4GlBQ"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-09-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux8Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000008",
+      "id": "aQYmNE8uNi2Ga5COJA4GlBg"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux5Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000009",
+      "id": "aQYmNE8uNi2Ga5COJA4GlBw"
+    },
+    {
+      "data": 1,
+      "dateTime": "2021-08-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticPositionValidId"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000a",
+      "id": "aQYmNE8uNi2Ga5COJA4GlCA"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux4Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000b",
+      "id": "aQYmNE8uNi2Ga5COJA4GlCQ"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticIgnitionId"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000c",
+      "id": "aQYmNE8uNi2Ga5COJA4GlCg"
+    },
+    {
+      "data": 0,
+      "dateTime": "2021-08-19T04:32:26.063Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "DiagnosticAux7Id"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000d",
+      "id": "aQYmNE8uNi2Ga5COJA4GlCw"
+    },
+    {
+      "data": 94,
+      "dateTime": "2021-08-19T05:02:21.537Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "a4Cq3dWtCV0yoo9j_v__LbQ"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000e",
+      "id": "aXkKm4XzctnTyFOZ5M9V4AA"
+    },
+    {
+      "data": 105,
+      "dateTime": "2021-08-19T05:32:21.537Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "a4Cq3dWtCV0yoo9j_v__LbQ"
+      },
+      "controller": "ControllerNoneId",
+      "version": "000000000000000f",
+      "id": "a0UFGtHaGQ0gZ4av95bUQAA"
+    },
+    {
+      "data": 104,
+      "dateTime": "2021-08-19T06:02:21.523Z",
+      "device": {
+        "id": "b1"
+      },
+      "diagnostic": {
+        "id": "a4Cq3dWtCV0yoo9j_v__LbQ"
+      },
+      "controller": "ControllerNoneId",
+      "version": "0000000000000010",
+      "id": "a2fLFlvMhFSiVTA7I6SYxAA"
+    }
+  ],
+  "toVersion": "0000000000000010"
+}
